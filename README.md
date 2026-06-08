@@ -25,6 +25,18 @@ While the original guide provides a great starting point for a baseline chatbot 
 * **Crash Protection:** Uses standard try-catch blocks to handle typos or invalid inputs safely.
 * **File Logging:** Automatically tracks calculations by writing a formatted line with a timestamp straight to a local file called `workout_log.txt`.
 * **Custom Dark Theme:** Replaces the default system window style with a dark gray background, monospace font, and subtle colored border accents.
+---
+
+## Computer Science Concepts Applied
+
+### Data Structures
+
+* **HashMap (Key-Value Pairs):** Used in the `ResponseEngine` to map user keywords to specific bot answers. This allows the bot to quickly look up static responses based on user input.
+* **Arrays (`String[]`):** Used when parsing dynamic inputs. The `.split()` method breaks a sentence into an array of separate words so the bot can isolate numbers.
+
+### Algorithmic Logic
+* **Linear Search:** The bot runs a loop through the keys of the response map to check if the user's input contains any matching phrases.
+* **String Parsing and Data Conversion:** The program uses logic to identify specific command patterns (like `protein `), isolate the text representing the user's weight, and convert that string into a decimal number (`double`) to perform calculations.
 
 ---
 
