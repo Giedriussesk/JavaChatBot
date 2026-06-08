@@ -1,4 +1,4 @@
-# JavaChatBot — Fitness Instructor Edition
+# JavaChatBot - Simple Fitness ChatBot
 
 This is a lightweight desktop chatbot designed to act as a simple fitness and nutrition coach. It was built completely from scratch using standard Java, without relying on build tools like Maven or Gradle, and without external frameworks. 
 
